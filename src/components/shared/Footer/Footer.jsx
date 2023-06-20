@@ -1,7 +1,15 @@
 import React from "react";
 
 const Footer = () => {
-  return <div></div>;
+  return (
+    <footer>
+      <div className="container">
+        <p className="text-center text-gray-600 text-lg">
+          &copy; 2023 Incubyte
+        </p>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;
