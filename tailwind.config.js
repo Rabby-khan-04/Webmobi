@@ -9,6 +9,7 @@ export default {
         deepBlue: "#4066c4",
         dabyBlue: "#a2d8f2",
         dark: "#202b30",
+        darkGray: "#314149",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

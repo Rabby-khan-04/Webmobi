@@ -1,0 +1,6 @@
+.banner-section {
+  background: url("../../../assets//images/circle-left.png") no-repeat top left,
+    url("../../../assets/images/circle-right.png") no-repeat top right,
+    url("../../../assets/images/circle-top.png") no-repeat top left, #a2d8f2;
+  background-position: -10% 60%, 100% 15%, 20% -10%;
+}
