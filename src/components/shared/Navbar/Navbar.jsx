@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import DropDown from "./DropDown";
 
 const Navbar = () => {
   return (
@@ -12,7 +13,7 @@ const Navbar = () => {
           Incubyte
         </h1>
         {/* Site Menu */}
-        <ul className="flex items-center gap-3 navItem">
+        <ul className="hidden lg:flex items-center gap-3 navItem">
           <li>
             <Link to="/">About Us</Link>
           </li>
@@ -25,7 +26,8 @@ const Navbar = () => {
           <li>
             <Link to="/">Contuct us</Link>
           </li>
-        </ul>
+        </ul>{" "}
+        <DropDown />
       </nav>
     </header>
   );

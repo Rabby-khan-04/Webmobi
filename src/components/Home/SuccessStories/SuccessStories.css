@@ -2,5 +2,17 @@
   background: url("../../../assets/images/circle-top.png") no-repeat top center,
     #5982d0;
   background-size: cover;
-  background-position: 0% 110%;
+  background-position: 50% 120%;
+}
+
+@media all and (max-width: 920px) {
+  .stories-sections {
+    background-position: 50% 150%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .stories-sections {
+    background-position: 50% 230%;
+  }
 }

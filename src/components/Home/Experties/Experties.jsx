@@ -27,12 +27,14 @@ const Experties = () => {
   ];
 
   return (
-    <section className="pt-14 pb-24">
+    <section className="lg:pt-14 pt-10 lg:pb-24 pb-14">
       <div className="container">
-        <div className="intro text-center mb-12">
-          <h2 className="text-darkBlue text-6xl font-bold">Our Experties</h2>
+        <div className="intro text-center lg:mb-12 md:mb-8 sm:mb-6 mb-4">
+          <h2 className="text-darkBlue lg:text-6xl sm:text-5xl text-4xl font-bold">
+            Our Experties
+          </h2>
         </div>
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid lg:grid-cols-2 lg:gap-10 gap-7">
           {experties.map((exp, index) => (
             <ExpertiesCard exp={exp} key={index} />
           ))}
